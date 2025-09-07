@@ -1,6 +1,13 @@
-# praktikum1
+# Praktikum 1 Pengenalan Mobile Programming dan Setup Lingkungan
 
 A new Flutter project.
+
+1.	Intsall Flutter dan Perangkat pendukung
+2.	Membuat proyek Flutter baru.
+3.	Menjalankan aplikasi default pada emulator.
+4.	Memodifikasi teks AppBar dan tampilan “Hello World”.
+5.	Melakukan uji aplikasi pada smartphone melalui USB debugging.
+6.	Mencatat waktu eksekusi aplikasi.
 
 ## Getting Started
 
