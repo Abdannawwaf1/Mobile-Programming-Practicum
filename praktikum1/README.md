@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-1.	Intsall Flutter dan Perangkat pendukung
+1.	Install Flutter dan Perangkat pendukung
 2.	Membuat proyek Flutter baru.
 3.	Menjalankan aplikasi default pada emulator.
 4.	Memodifikasi teks AppBar dan tampilan “Hello World”.
