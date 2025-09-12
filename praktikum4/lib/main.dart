@@ -90,40 +90,40 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class KotakBiruJempolKecil extends StatelessWidget {
-  const KotakBiruJempolKecil({super.key});
+// class KotakBiruJempolKecil extends StatelessWidget {
+//   const KotakBiruJempolKecil({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 75,
-      height: 75,
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        border: Border.all(color: Colors.black, width: 2),
-        borderRadius: BorderRadius.circular(12)
-      ),
-      child: Icon(
-        Icons.thumb_up,
-        color: Colors.white,
-        size: 40,
-        ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       width: 75,
+//       height: 75,
+//       decoration: BoxDecoration(
+//         color: Colors.blue,
+//         border: Border.all(color: Colors.black, width: 2),
+//         borderRadius: BorderRadius.circular(12)
+//       ),
+//       child: Icon(
+//         Icons.thumb_up,
+//         color: Colors.white,
+//         size: 40,
+//         ),
+//     );
+//   }
+// }
 
-Container _kotakUji(Color warna, double tinggi, String teks){
-  return Container(
-    width: double.infinity,
-    height: tinggi,
-    color: warna,
-    alignment: const Alignment(0.0, 0.0),
-    child: Text(
-      teks,
-      style: const TextStyle(fontSize: 30, color: Colors.white),
-    ),
-  );
-}
+// Container _kotakUji(Color warna, double tinggi, String teks){
+//   return Container(
+//     width: double.infinity,
+//     height: tinggi,
+//     color: warna,
+//     alignment: const Alignment(0.0, 0.0),
+//     child: Text(
+//       teks,
+//       style: const TextStyle(fontSize: 30, color: Colors.white),
+//     ),
+//   );
+// }
 
 Container _musicIcon(Color warna, IconData icon, int size){
   return Container(
