@@ -1,6 +1,13 @@
-# praktikum2
+# Praktikum 2 Widget Row dan Column
 
 A new Flutter project.
+
+1.	Membuat proyek Flutter baru.
+2.	Ubah kode program awal agar properti title pada MaterialApp menjadi “Row and Column”.
+3.	Membuat widget custom
+4.	Menambahkan kode Row dan Column, untuk membuat grid 2x2.
+5.	Merubah icon menjadi Icons favorite dan merubah warna menjadi merah serta menambahkan text di bawah setiap icon menggunakan widget Column.
+6.	Melakukan uji aplikasi pada emulator atau smartphone.
 
 ## Getting Started
 
