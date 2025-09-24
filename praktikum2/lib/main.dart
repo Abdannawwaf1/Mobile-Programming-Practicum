@@ -95,29 +95,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-class KotakBiruJempol extends StatelessWidget {
-  const KotakBiruJempol({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 80,
-      height: 80,
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        border: Border.all(color: Colors.black, width: 2),
-        borderRadius: BorderRadius.circular(12),
-      ),
-      child: Icon(
-        Icons.thumb_up,
-        color: Colors.white,
-        size: 40
-      )
-    );
-  }
-}
-
 class KotakMerahLove extends StatelessWidget {
   const KotakMerahLove({super.key});
 

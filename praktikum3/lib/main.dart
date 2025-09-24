@@ -13,24 +13,22 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Weather App',
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Alignment'),
-        // ),
         body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            // crossAxisAlignment: CrossAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
                 'Malang',
                 style: TextStyle(fontSize: 30),
               ),
               Text(
-                '25\u00b0C',
+                '25\u00b0',
                 style: TextStyle(fontSize: 80),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   CuacaHari(
                     cuaca: 'Minggu',
@@ -57,50 +55,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class KotakBiruJempol extends StatelessWidget {
-  const KotakBiruJempol({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 100,
-      height: 100,
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        border: Border.all(color: Colors.black, width: 2),
-        borderRadius: BorderRadius.circular(12)
-      ),
-      child: Icon(
-        Icons.thumb_up,
-        color: Colors.white,
-        size: 40,
-        ),
-    );
-  }
-}
-
-class KotakBiruJempolKecil extends StatelessWidget {
-  const KotakBiruJempolKecil({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 75,
-      height: 75,
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        border: Border.all(color: Colors.black, width: 2),
-        borderRadius: BorderRadius.circular(12)
-      ),
-      child: Icon(
-        Icons.thumb_up,
-        color: Colors.white,
-        size: 40,
-        ),
-    );
-  }
-}
-
 class CuacaHari extends StatelessWidget {
   final String cuaca;
   final IconData icon;
@@ -116,8 +70,6 @@ class CuacaHari extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
           cuaca,
