@@ -10,7 +10,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Demo GridView',
+      title: 'Demo ListView',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Demo ListView'),

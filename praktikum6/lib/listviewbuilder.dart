@@ -12,12 +12,12 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Demo Grid View.builder',
+      title: 'Demo List View.builder',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
         useMaterial3: true
       ),
-      home: const MyHomePage(title: 'Demo GridView.builder')
+      home: const MyHomePage(title: 'Demo ListView.builder')
     );
   }
 }
